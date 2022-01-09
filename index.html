@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="all.min.css">
+    <!--fontawsom-->
+    <link rel="stylesheet" href="style.css">
+    <!--style-->
+    <link rel="stylesheet" href="Jost-Italic-VariableFont_wght.ttf">
+    <!--google font-->
+
+    <title>Music player</title>
+
+
+</head>
+
+<body>
+    <div class="main_div">
+
+        <div class="music_container">
+            <i class="fas fa-chevron-right" id="arrow"></i>
+            <h2 id="title"></h2>
+            <h3 id="artist"></h3>
+            <div class="image_container">
+                <img src="" alt="image">
+
+            </div>
+            <audio src="" controls hidden></audio>
+            <div class="progressbar_container" id="progressbar_container">
+                <div class="progress_duration_meter">
+                    <div id="current_time">0:00</div>
+                    <!--dumy data-->
+                    <div id="duration">2:44</div>
+                </div>
+                <div class="progress_div" id="progress_div">
+                    <div class="progress" id="progress"></div>
+                </div>
+            </div>
+            <!--controls-->
+
+            <div class="music_controls">
+
+                <i class="fas fa-backward" id="prev" title="Previous"></i>
+                <i class="fas fa-play main_button" id="play" title="Play"></i>
+                <i class="fas fa-forward" id="next" title="Next"></i>
+            </div>
+
+
+        </div>
+
+        <div class="playlist" id="playlist">
+            <div class="list_div" id="list_div">
+                <ul id='ul'>
+
+
+
+                </ul>
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="functions.js"></script>
+
+    </script>
+</body>
+
+</html>
